@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Righteous&display=swap');
+
+*{
+    margin: 3px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 49%,#bce0ee 100%); 
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: 'Righteous', cursive;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+ .cabecalho-menu{
+    display: flex;
+    gap: 32px;
+ }
+  .menu-item{
+    font-family: 'Righteous', cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .conteudo{
+    margin-bottom: 55px;
+  }
+
+  .conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Croissant One', cursive;
+        font-weight: 400;
+        font-size: 34px;
+    }
+
+    .conteudo-imagem1{
+      height: 150px;
+    }
+
+    .conteudo-imagem2{
+        height: 150px;
+    }
+
+    .conteudo-secundario{
+       margin-top: 48px;
+       
+    }
+
+    .conteudo-secundario-paragrafo{
+        padding-top: 20px;
+        font-family: 'Croissant One', cursive;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .rodape{
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+        border-top: 0.4px solid #FFF2E7;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 14px;
+    }
+
+
+
